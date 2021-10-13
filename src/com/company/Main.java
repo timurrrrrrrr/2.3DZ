@@ -31,7 +31,7 @@ public class Main {
 
 
                 } catch (LimitException limitException) {
-                    System.out.println("dcbhbchbdhcbh"+limitException.getMessage());
+                    System.out.println(limitException.getMessage());
                 }
                 break;
             }

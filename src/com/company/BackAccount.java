@@ -15,7 +15,7 @@ class BackAccount {
 
     public void deposit(double sum){
         setAmount(amount+sum);
-        System.out.println("Поступили на счет  + " +sum+" сом");
+        System.out.println("Поступило на счет  + " +sum+" сом");
     }
     public double withDraw(int sum) throws LimitException {
         if (sum > amount){
